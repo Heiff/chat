@@ -79,7 +79,11 @@ const Logout = () => {
 
 
     return(
-        <Context.Provider value={{gender,setGender,setCountry,setName,setAge,LoginFunc,country,err,setErr,Users,volume,setVolume,male,female,usersFilter,setUsersFilter,filteringUsers,message,setMessage,SendMessage,myMessage,Buttons,envelope,bars,Logout,navigate,setBars,setEnvelope }}>
+        <Context.Provider value={{
+            gender,setGender,setCountry,setName,setAge,LoginFunc,country,err,
+            setErr,Users,volume,setVolume,male,female,usersFilter,setUsersFilter,
+            filteringUsers,message,setMessage,SendMessage,myMessage,Buttons,envelope,
+            bars,Logout,navigate,setBars,setEnvelope}}>
             {children}
         </Context.Provider>
     )
